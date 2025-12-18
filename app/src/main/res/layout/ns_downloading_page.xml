@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@mipmap/img_home_page_bg"
+    android:id="@+id/main">
+
+
+    <include
+        android:id="@+id/head_page"
+        layout="@layout/ns_head_page" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginVertical="20dp"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/downloading_page_rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:visibility="visible"
+            tools:itemCount="10"
+            tools:listitem="@layout/ns_item_downloading_page"/>
+
+        <LinearLayout
+            android:id="@+id/downloading_page_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="42dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/img_data_null_map"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="@string/downloading_empty_content"
+                android:textColor="#A6A6A6"
+                android:textSize="16sp"
+                android:fontFamily="@font/roboto"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+    <com.ping.night.story.admob.view.CustomNativeAdView
+        android:id="@+id/downloading_page_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ns_message_send_title">
+        <item>Video mới làm say mê giác quan của bạn.</item>
+        <item>Hành trình hình ảnh của niềm vui thuần túy.</item>
+        <item>Món quà hình ảnh hàng ngày của bạn đã sẵn sàng.</item>
+        <item>Khám phá video tỏa sáng.</item>
+        <item>Clip mới truyền cảm hứng cho ước mơ của bạn.</item>
+        <item>Video mới tải lên làm rung động trái tim bạn.</item>
+        <item>Bước vào thế giới kỳ diệu hình ảnh.</item>
+        <item>Bắt sóng vẻ đẹp ngay bây giờ.</item>
+        <item>"Xem video tuyệt đẹp này, bạn sẽ thích nó"</item>
+        <item>"Clip tuyệt vời mới vừa ra, đừng bỏ lỡ"</item>
+        <item>Bạn phải xem video tuyệt vời này ngay bây giờ</item>
+        <item>Một video tuyệt vời đang chờ bạn</item>
+        <item>Video này quá hay để bỏ qua</item>
+        <item>Cảnh báo video mới! Đến xem nào</item>
+        <item>"Bạn sẽ không hối tiếc khi nhấp vào video này"</item>
+        <item>Một video đáng kinh ngạc chỉ dành cho đôi mắt bạn</item>
+        <item>"Đừng bỏ lỡ video siêu ngầu này"</item>
+        <item>"Clip mới ở đây, hoàn toàn đáng giá"</item>
+        <item>Video này sẽ làm ngày của bạn tốt hơn</item>
+        <item>Xem này, video tuyệt vời bên trong</item>
+        <item>Video bắt buộc phải xem vừa ra mắt</item>
+        <item>"Bạn không thể bỏ lỡ clip mới tuyệt vời này"</item>
+        <item>Video mới và tuyệt vời dành cho bạn</item>
+        <item>Video này đang gây bão trên ứng dụng</item>
+        <item>"Đừng để video hay này vuột mất"</item>
+        <item>"Cảnh báo video mới, thật đáng kinh ngạc"</item>
+        <item>Nhấp vào đây để trải nghiệm video tuyệt vời</item>
+        <item>Clip này quá tuyệt để bỏ lỡ</item>
+        <item>Xem video viral này ngay</item>
+        <item>Một video mới tuyệt vời đang chờ</item>
+        <item>Bạn phải xem nó tuyệt vời thế nào</item>
+        <item>Video này sẽ làm bạn kinh ngạc</item>
+        <item>"Đừng bỏ qua clip mới tuyệt vời này"</item>
+        <item>Video mới chỉ dành cho bạn, xem nhé</item>
+        <item>"Video tuyệt vời này không thể bỏ lỡ"</item>
+        <item>"Cảnh báo clip mới! Đáng xem"</item>
+        <item>"Bạn sẽ không tin video tuyệt vời này"</item>
+        <item>Một video mới đáng kinh ngạc đã tới</item>
+        <item>Xem này, video siêu ngầu</item>
+        <item>Video này sẽ khiến bạn mỉm cười</item>
+    </string-array>
+
+
+
+    <string-array name="ns_message_send_action">
+        <item>Say mê</item>
+        <item>Hành trình</item>
+        <item>Đãi</item>
+        <item>Tỏa sáng</item>
+        <item>Truyền cảm hứng</item>
+        <item>Hồi hộp</item>
+        <item>Vào</item>
+        <item>Bắt</item>
+        <item>Xem</item>
+        <item>Xem</item>
+        <item>Phát</item>
+        <item>Thưởng thức</item>
+        <item>Xem</item>
+        <item>Khám phá</item>
+        <item>Phát</item>
+        <item>Xem</item>
+        <item>Xem</item>
+        <item>Thưởng thức</item>
+        <item>Phát</item>
+        <item>Khám phá</item>
+        <item>Xem</item>
+        <item>Xem</item>
+        <item>Phát</item>
+        <item>Xem</item>
+        <item>Xem</item>
+        <item>Thưởng thức</item>
+        <item>Phát</item>
+        <item>Xem</item>
+        <item>Xem</item>
+        <item>Khám phá</item>
+        <item>Phát</item>
+        <item>Xem</item>
+        <item>Xem</item>
+        <item>Thưởng thức</item>
+        <item>Phát</item>
+        <item>Xem</item>
+        <item>Xem</item>
+        <item>Xem</item>
+        <item>Phát</item>
+        <item>Thưởng thức</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,181 @@
+{
+  "project_info": {
+    "project_number": "688845781026",
+    "project_id": "private-videos-6b466",
+    "storage_bucket": "private-videos-6b466.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688845781026:android:2d5eb7958745d6df3e327b",
+        "android_client_info": {
+          "package_name": "com.fast.saver.pro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYSmGInPUEIfxf4acQCIA38m_41gTwr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688845781026:android:1438817105e751003e327b",
+        "android_client_info": {
+          "package_name": "com.green.downloader"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYSmGInPUEIfxf4acQCIA38m_41gTwr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688845781026:android:cc9bb5e8ecc1a2473e327b",
+        "android_client_info": {
+          "package_name": "com.personal.videos.downloads"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYSmGInPUEIfxf4acQCIA38m_41gTwr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688845781026:android:9643f2edd41bf3113e327b",
+        "android_client_info": {
+          "package_name": "com.ping.catchsaver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYSmGInPUEIfxf4acQCIA38m_41gTwr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688845781026:android:ff78bda64e7a65e63e327b",
+        "android_client_info": {
+          "package_name": "com.ping.mediasaver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYSmGInPUEIfxf4acQCIA38m_41gTwr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688845781026:android:051f73b06036d4e03e327b",
+        "android_client_info": {
+          "package_name": "com.ping.night.story"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYSmGInPUEIfxf4acQCIA38m_41gTwr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688845781026:android:3a8326bcae13f65a3e327b",
+        "android_client_info": {
+          "package_name": "com.ping.streamcatch"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYSmGInPUEIfxf4acQCIA38m_41gTwr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688845781026:android:a0378052772aeaa43e327b",
+        "android_client_info": {
+          "package_name": "com.tb.music.player"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYSmGInPUEIfxf4acQCIA38m_41gTwr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688845781026:android:5c0959c2177e23cb3e327b",
+        "android_client_info": {
+          "package_name": "com.xprivate.downloader"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYSmGInPUEIfxf4acQCIA38m_41gTwr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

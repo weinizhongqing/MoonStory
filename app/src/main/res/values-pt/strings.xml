@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_page_title">Ajudamos você a baixar seus vídeos favoritos aqui!</string>
+    <string name="view">Ver</string>
+    <string name="play">Reproduzir</string>
+    <string name="start">Iniciar</string>
+    <string name="dialog_download_suc">Baixado com sucesso</string>
+    <string name="ad_loading">Anúncio carregando…</string>
+    <string name="download">Baixar</string>
+    <string name="downloading">Baixando</string>
+    <string name="my_favorite">Meus favoritos</string>
+    <string name="favorite">Favorito</string>
+    <string name="videos">Vídeos</string>
+    <string name="local_videos">Vídeos locais</string>
+    <string name="settings">Configurações</string>
+    <string name="retry">Tentar novamente</string>
+    <string name="parse_fail">Falha ao analisar o vídeo, tente novamente</string>
+    <string name="downloading_empty_content">Nenhum download ainda? Experimente nosso baixador!</string>
+    <string name="video_empty_content">Nenhum vídeo baixado localmente</string>
+    <string name="how_to_use">Como usar?</string>
+    <string name="language">Idioma</string>
+    <string name="about">Sobre</string>
+    <string name="ok">OK</string>
+    <string name="save">Salvar</string>
+    <string name="video_analysis">Análise de vídeo</string>
+    <string name="notify_des">Seu vídeo está pronto! Ative as notificações para alertas de download instantâneos e atualizações de novos recursos.</string>
+    <string name="allow">Permitir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="notifications">Notificações</string>
+    <string name="delete">Excluir</string>
+    <string name="del_downloading_content">Tem certeza de que deseja excluir o download do vídeo? A exclusão é irreversível.</string>
+    <string name="del_downloaded_content">Tem certeza de que deseja excluir o vídeo local? A exclusão é irreversível.</string>
+    <string name="share">Compartilhar</string>
+    <string name="url_error">Por favor, primeiro copie o link do vídeo do X, depois volte para esta página!</string>
+    <string name="recommended">Recomendado</string>
+    <string name="recommend_videos">Vídeos</string>
+    <string name="pause">Pausado</string>
+    <string name="watch">Assistir</string>
+    <string name="next_step">Próxima etapa</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ns_message_send_title">
+        <item>Nouvelles vidéos pour enchanter vos sens.</item>
+        <item>Un voyage visuel de pur délice.</item>
+        <item>Votre friandise visuelle quotidienne est servie.</item>
+        <item>Découvrez des vidéos qui brillent.</item>
+        <item>Nouveaux clips pour inspirer vos rêves.</item>
+        <item>Nouvelles vidéos pour ravir votre cœur.</item>
+        <item>Entrez dans un monde de merveilles visuelles.</item>
+        <item>Surfez sur la vague de beauté maintenant.</item>
+        <item>"Regardez cette vidéo magnifique, vous allez l\'adorer"</item>
+        <item>"Nouveau clip incroyable vient de sortir, ne le manquez pas"</item>
+        <item>Vous devez voir cette vidéo géniale maintenant</item>
+        <item>Une vidéo fantastique qui n\'attend que vous</item>
+        <item>Cette vidéo est trop bien pour la sauter</item>
+        <item>Alerte nouvelle vidéo ! Venez voir</item>
+        <item>"Vous ne regretterez pas d'avoir cliqué sur cette vidéo"</item>
+        <item>Une vidéo incroyable juste pour vos yeux</item>
+        <item>"Ne manquez pas cette vidéo super cool"</item>
+        <item>"Nouveau clip ici, ça vaut vraiment le coup"</item>
+        <item>Cette vidéo améliorera votre journée</item>
+        <item>Regardez ça, vidéo incroyable à l\'intérieur</item>
+        <item>Une vidéo incontournable vient de sortir</item>
+        <item>"Vous ne pouvez pas manquer ce nouveau clip génial"</item>
+        <item>Vidéo fraîche et incroyable pour vous</item>
+        <item>Cette vidéo fait sensation sur l\'appli</item>
+        <item>"Ne laissez pas passer cette excellente vidéo"</item>
+        <item>"Alerte nouvelle vidéo, c'est incroyable"</item>
+        <item>Cliquez ici pour une expérience vidéo incroyable</item>
+        <item>Ce clip est trop fantastique pour le rater</item>
+        <item>Regardez cette vidéo virale maintenant</item>
+        <item>Une nouvelle vidéo incroyable vous attend</item>
+        <item>Vous devez voir à quel point c\'est génial</item>
+        <item>Cette vidéo va vous époustoufler</item>
+        <item>"Ne sautez pas ce nouveau clip fantastique"</item>
+        <item>Vidéo fraîche juste pour vous, regardez-la</item>
+        <item>"Cette vidéo incroyable ne peut pas être manquée"</item>
+        <item>"Alerte nouveau clip ! Ça vaut le coup"</item>
+        <item>"Vous ne croirez pas cette vidéo géniale"</item>
+        <item>Une nouvelle vidéo incroyable est là</item>
+        <item>Regardez ça, vidéo super cool</item>
+        <item>Cette vidéo vous fera sourire</item>
+    </string-array>
+
+
+
+    <string-array name="ns_message_send_action">
+        <item>Enchanter</item>
+        <item>Voyage</item>
+        <item>Régal</item>
+        <item>Briller</item>
+        <item>Inspirer</item>
+        <item>Frisson</item>
+        <item>Entrer</item>
+        <item>Attraper</item>
+        <item>Regarder</item>
+        <item>Voir</item>
+        <item>Jouer</item>
+        <item>Profiter</item>
+        <item>Regarder</item>
+        <item>Explorer</item>
+        <item>Jouer</item>
+        <item>Voir</item>
+        <item>Regarder</item>
+        <item>Profiter</item>
+        <item>Jouer</item>
+        <item>Explorer</item>
+        <item>Voir</item>
+        <item>Regarder</item>
+        <item>Jouer</item>
+        <item>Voir</item>
+        <item>Regarder</item>
+        <item>Profiter</item>
+        <item>Jouer</item>
+        <item>Voir</item>
+        <item>Regarder</item>
+        <item>Explorer</item>
+        <item>Jouer</item>
+        <item>Voir</item>
+        <item>Regarder</item>
+        <item>Profiter</item>
+        <item>Jouer</item>
+        <item>Voir</item>
+        <item>Regarder</item>
+        <item>Voir</item>
+        <item>Jouer</item>
+        <item>Profiter</item>
+    </string-array>
+
+
+
+</resources>

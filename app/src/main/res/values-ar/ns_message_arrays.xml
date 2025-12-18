@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ns_message_send_title">
+        <item>مقاطع فيديو جديدة تسحر حواسك.</item>
+        <item>رحلة بصرية من المتعة الخالصة.</item>
+        <item>متعتك البصرية اليومية جاهزة.</item>
+        <item>اكتشف مقاطع فيديو تتألق.</item>
+        <item>مقاطع جديدة تلهم أحلامك.</item>
+        <item>تحميلات جديدة تثير قلبك.</item>
+        <item>ادخل عالم العجائب البصرية.</item>
+        <item>التمس موجة الجمال الآن.</item>
+        <item>"شاهد هذا الفيديو المذهل، ستحبه"</item>
+        <item>"مقطع جديد مذهل للتو، لا تفوته"</item>
+        <item>يجب أن تشاهد هذا الفيديو الرائع الآن</item>
+        <item>فيديو رائع ينتظرك</item>
+        <item>هذا الفيديو جيد جدًا لتخطيه</item>
+        <item>تنبيه فيديو جديد! تعال وشاهد</item>
+        <item>"لن تندم على النقر على هذا الفيديو"</item>
+        <item>فيديو مذهل فقط لعينيك</item>
+        <item>"لا تفوت هذا الفيديو الرائع"</item>
+        <item>"مقطع جديد هنا، يستحق كل هذا العناء"</item>
+        <item>هذا الفيديو سيجعل يومك أفضل</item>
+        <item>تحقق من هذا، فيديو مذهل بداخله</item>
+        <item>فيديو يجب مشاهدته للتو تم إصداره</item>
+        <item>"لا يمكنك تفويت هذا المقطع الجديد الرائع"</item>
+        <item>فيديو جديد ومذهل لك</item>
+        <item>هذا الفيديو ينتشر في التطبيق</item>
+        <item>"لا تدع هذا الفيديو الرائع يفوتك"</item>
+        <item>"تنبيه فيديو جديد، إنه مذهل"</item>
+        <item>انقر هنا لتجربة فيديو مذهلة</item>
+        <item>هذا المقطع رائع جدًا لتخطيه</item>
+        <item>شاهد هذا الفيديو الفيروسي الآن</item>
+        <item>فيديو جديد مذهل ينتظرك</item>
+        <item>يجب أن ترى كم هذا رائع</item>
+        <item>هذا الفيديو سيبهرك</item>
+        <item>"لا تتخطى هذا المقطع الجديد الرائع"</item>
+        <item>فيديو جديد فقط لك، شاهده</item>
+        <item>"لا يمكن تفويت هذا الفيديو المذهل"</item>
+        <item>"تنبيه مقطع جديد! يستحق المشاهدة"</item>
+        <item>"لن تصدق هذا الفيديو الرائع"</item>
+        <item>فيديو جديد مذهل هنا</item>
+        <item>تحقق من هذا، فيديو رائع جدًا</item>
+        <item>هذا الفيديو سيجعلك تبتسم</item>
+    </string-array>
+
+
+
+    <string-array name="ns_message_send_action">
+        <item>سحر</item>
+        <item>رحلة</item>
+        <item>تكريم</item>
+        <item>تألق</item>
+        <item>إلهام</item>
+        <item>إثارة</item>
+        <item>دخول</item>
+        <item>قبض</item>
+        <item>مشاهدة</item>
+        <item>عرض</item>
+        <item>تشغيل</item>
+        <item>استمتاع</item>
+        <item>مشاهدة</item>
+        <item>استكشاف</item>
+        <item>تشغيل</item>
+        <item>عرض</item>
+        <item>مشاهدة</item>
+        <item>استمتاع</item>
+        <item>تشغيل</item>
+        <item>استكشاف</item>
+        <item>عرض</item>
+        <item>مشاهدة</item>
+        <item>تشغيل</item>
+        <item>رؤية</item>
+        <item>مشاهدة</item>
+        <item>استمتاع</item>
+        <item>تشغيل</item>
+        <item>عرض</item>
+        <item>مشاهدة</item>
+        <item>استكشاف</item>
+        <item>تشغيل</item>
+        <item>عرض</item>
+        <item>مشاهدة</item>
+        <item>استمتاع</item>
+        <item>تشغيل</item>
+        <item>رؤية</item>
+        <item>مشاهدة</item>
+        <item>عرض</item>
+        <item>تشغيل</item>
+        <item>استمتاع</item>
+    </string-array>
+
+
+
+</resources>

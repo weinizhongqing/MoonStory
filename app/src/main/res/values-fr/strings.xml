@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="start_page_title">Nous vous aidons à télécharger vos vidéos préférées ici !</string>
+    <string name="view">Voir</string>
+    <string name="play">Lire</string>
+    <string name="start">Commencer</string>
+    <string name="dialog_download_suc">Téléchargé avec succès</string>
+    <string name="ad_loading">Publicité en cours de chargement…</string>
+    <string name="download">Télécharger</string>
+    <string name="downloading">Téléchargement en cours</string>
+    <string name="my_favorite">Mes favoris</string>
+    <string name="favorite">Favori</string>
+    <string name="videos">Vidéos</string>
+    <string name="local_videos">Vidéos locales</string>
+    <string name="settings">Paramètres</string>
+    <string name="retry">Réessayer</string>
+    <string name="parse_fail">Échec de l\'analyse de la vidéo, veuillez réessayer</string>
+    <string name="downloading_empty_content">Pas encore de téléchargements ? Essayez notre téléchargeur !</string>
+    <string name="video_empty_content">Aucune vidéo téléchargée localement</string>
+    <string name="how_to_use">Comment utiliser ?</string>
+    <string name="language">Langue</string>
+    <string name="about">À propos</string>
+    <string name="ok">OK</string>
+    <string name="save">Sauvegarder</string>
+    <string name="video_analysis">Analyse vidéo</string>
+    <string name="notify_des">Votre vidéo est prête ! Activez les notifications pour des alertes de téléchargement instantanées et des mises à jour de nouvelles fonctionnalités.</string>
+    <string name="allow">Autoriser</string>
+    <string name="cancel">Annuler</string>
+    <string name="notifications">Notifications</string>
+    <string name="delete">Supprimer</string>
+    <string name="del_downloading_content">Êtes-vous sûr de vouloir supprimer le téléchargement de la vidéo ? La suppression est irréversible.</string>
+    <string name="del_downloaded_content">Êtes-vous sûr de vouloir supprimer la vidéo locale ? La suppression est irréversible.</string>
+    <string name="share">Partager</string>
+    <string name="url_error">Veuillez d\'abord copier le lien vidéo depuis X, puis revenez sur cette page !</string>
+    <string name="recommended">Recommandé</string>
+    <string name="recommend_videos">Vidéos</string>
+    <string name="pause">En pause</string>
+    <string name="watch">Regarder</string>
+    <string name="next_step">Étape suivante</string>
+
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ns_message_send_title">
+        <item>Nuevos videos para encantar tus sentidos.</item>
+        <item>Un viaje visual de puro deleite.</item>
+        <item>Tu regalo visual diario está servido.</item>
+        <item>Descubre videos que brillan.</item>
+        <item>Nuevos clips para inspirar tus sueños.</item>
+        <item>Nuevas subidas para emocionar tu corazón.</item>
+        <item>Entra en un mundo de maravillas visuales.</item>
+        <item>Atrapa la ola de belleza ahora.</item>
+        <item>"Mira este increíble video, te encantará"</item>
+        <item>"Nuevo clip asombroso acaba de salir, no te lo pierdas"</item>
+        <item>Tienes que ver este video increíble ahora mismo</item>
+        <item>Un video fantástico esperándote solo a ti</item>
+        <item>Este video es demasiado bueno para saltarlo</item>
+        <item>¡Alerta de video nuevo! Ven a ver</item>
+        <item>"No te arrepentirás de hacer clic en este video"</item>
+        <item>Un video increíble solo para tus ojos</item>
+        <item>"No te pierdas este video super genial"</item>
+        <item>"Nuevo clip aquí, vale totalmente la pena"</item>
+        <item>Este video mejorará tu día</item>
+        <item>Mira esto, video increíble dentro</item>
+        <item>Un video imperdible recién lanzado</item>
+        <item>"No puedes perderte este nuevo clip asombroso"</item>
+        <item>Video fresco y asombroso para ti</item>
+        <item>Este video está arrasando en la app</item>
+        <item>"No dejes que este gran video pase de largo"</item>
+        <item>"Alerta de video nuevo, es increíble"</item>
+        <item>Haz clic aquí para una experiencia de video asombrosa</item>
+        <item>Este clip es demasiado fantástico para perdérselo</item>
+        <item>Mira este video viral ahora</item>
+        <item>Un nuevo video asombroso te espera</item>
+        <item>Tienes que ver lo increíble que es esto</item>
+        <item>Este video te volará la cabeza</item>
+        <item>"No te saltes este nuevo clip fantástico"</item>
+        <item>Video fresco solo para ti, revísalo</item>
+        <item>"Este video asombroso no se puede perder"</item>
+        <item>"¡Alerta de nuevo clip! Vale la pena verlo"</item>
+        <item>"No creerás este video increíble"</item>
+        <item>Un nuevo video increíble está aquí</item>
+        <item>Mira esto, video super genial</item>
+        <item>Este video te hará sonreír</item>
+    </string-array>
+
+
+
+    <string-array name="ns_message_send_action">
+        <item>Encantar</item>
+        <item>Viaje</item>
+        <item>Tratar</item>
+        <item>Brillar</item>
+        <item>Inspirar</item>
+        <item>Emoción</item>
+        <item>Entrar</item>
+        <item>Atrapar</item>
+        <item>Mirar</item>
+        <item>Ver</item>
+        <item>Reproducir</item>
+        <item>Disfrutar</item>
+        <item>Mirar</item>
+        <item>Explorar</item>
+        <item>Reproducir</item>
+        <item>Ver</item>
+        <item>Mirar</item>
+        <item>Disfrutar</item>
+        <item>Reproducir</item>
+        <item>Explorar</item>
+        <item>Ver</item>
+        <item>Mirar</item>
+        <item>Reproducir</item>
+        <item>Ver</item>
+        <item>Mirar</item>
+        <item>Disfrutar</item>
+        <item>Reproducir</item>
+        <item>Ver</item>
+        <item>Mirar</item>
+        <item>Explorar</item>
+        <item>Reproducir</item>
+        <item>Ver</item>
+        <item>Mirar</item>
+        <item>Disfrutar</item>
+        <item>Reproducir</item>
+        <item>Ver</item>
+        <item>Mirar</item>
+        <item>Ver</item>
+        <item>Reproducir</item>
+        <item>Disfrutar</item>
+    </string-array>
+
+
+
+</resources>

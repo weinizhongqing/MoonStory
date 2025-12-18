@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_page_title">हम आपकी पसंदीदा वीडियो यहां डाउनलोड करने में मदद करते हैं!</string>
+    <string name="view">देखें</string>
+    <string name="play">चलाएँ</string>
+    <string name="start">शुरू करें</string>
+    <string name="dialog_download_suc">सफलतापूर्वक डाउनलोड किया गया</string>
+    <string name="ad_loading">विज्ञापन लोड हो रहा है…</string>
+    <string name="download">डाउनलोड</string>
+    <string name="downloading">डाउनलोड हो रहा है</string>
+    <string name="my_favorite">मेरे पसंदीदा</string>
+    <string name="favorite">पसंदीदा</string>
+    <string name="videos">वीडियो</string>
+    <string name="local_videos">स्थानीय वीडियो</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="retry">पुनः प्रयास करें</string>
+    <string name="parse_fail">वीडियो का विश्लेषण विफल, कृपया पुनः प्रयास करें</string>
+    <string name="downloading_empty_content">अभी तक कोई डाउनलोड नहीं? हमारे डाउनलोडर को आज़माएं!</string>
+    <string name="video_empty_content">कोई वीडियो स्थानीय रूप से डाउनलोड नहीं किया गया</string>
+    <string name="how_to_use">कैसे उपयोग करें?</string>
+    <string name="language">भाषा</string>
+    <string name="about">के बारे में</string>
+    <string name="ok">ठीक</string>
+    <string name="save">सेव करें</string>
+    <string name="video_analysis">वीडियो विश्लेषण</string>
+    <string name="notify_des">आपका वीडियो तैयार है! तत्काल डाउनलोड अलर्ट और नई सुविधा अपडेट के लिए सूचनाएं चालू करें।</string>
+    <string name="allow">अनुमति दें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="notifications">सूचनाएं</string>
+    <string name="delete">हटाएं</string>
+    <string name="del_downloading_content">क्या आप वाकई वीडियो डाउनलोड हटाना चाहते हैं? हटाने के बाद पुनर्प्राप्त नहीं किया जा सकता।</string>
+    <string name="del_downloaded_content">क्या आप वाकई स्थानीय वीडियो हटाना चाहते हैं? हटाने के बाद पुनर्प्राप्त नहीं किया जा सकता।</string>
+    <string name="share">शेयर करें</string>
+    <string name="url_error">कृपया पहले X से वीडियो लिंक कॉपी करें, फिर इस पेज पर वापस आएं!</string>
+    <string name="recommended">सुझाए गए</string>
+    <string name="recommend_videos">वीडियो</string>
+    <string name="pause">रोका गया</string>
+    <string name="watch">देखें</string>
+    <string name="next_step">अगला कदम</string>
+</resources>

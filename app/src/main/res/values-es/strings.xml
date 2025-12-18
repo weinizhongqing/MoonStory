@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_page_title">¡Te ayudamos a descargar tus videos favoritos aquí!</string>
+    <string name="view">Ver</string>
+    <string name="play">Reproducir</string>
+    <string name="start">Comenzar</string>
+    <string name="dialog_download_suc">Descargado exitosamente</string>
+    <string name="ad_loading">Anuncio cargando…</string>
+    <string name="download">Descargar</string>
+    <string name="downloading">Descargando</string>
+    <string name="my_favorite">Mis favoritos</string>
+    <string name="favorite">Favorito</string>
+    <string name="videos">Videos</string>
+    <string name="local_videos">Videos locales</string>
+    <string name="settings">Ajustes</string>
+    <string name="retry">Reintentar</string>
+    <string name="parse_fail">Error al analizar el video, intente nuevamente</string>
+    <string name="downloading_empty_content">¿Aún no hay descargas? ¡Prueba nuestro descargador!</string>
+    <string name="video_empty_content">No hay videos descargados localmente</string>
+    <string name="how_to_use">¿Cómo usar?</string>
+    <string name="language">Idioma</string>
+    <string name="about">Acerca de</string>
+    <string name="ok">OK</string>
+    <string name="save">Guardar</string>
+    <string name="video_analysis">Análisis de video</string>
+    <string name="notify_des">¡Tu video está listo! Activa las notificaciones para alertas de descarga instantáneas y actualizaciones de nuevas funciones.</string>
+    <string name="allow">Permitir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="delete">Eliminar</string>
+    <string name="del_downloading_content">¿Estás seguro de eliminar la descarga del video? La eliminación es irreversible.</string>
+    <string name="del_downloaded_content">¿Estás seguro de eliminar el video local? La eliminación es irreversible.</string>
+    <string name="share">Compartir</string>
+    <string name="url_error">¡Primero copie el enlace del video desde X, luego regrese a esta página!</string>
+    <string name="recommended">Recomendado</string>
+    <string name="recommend_videos">Videos</string>
+    <string name="pause">Pausado</string>
+    <string name="watch">Mirar</string>
+    <string name="next_step">Siguiente paso</string>
+</resources>

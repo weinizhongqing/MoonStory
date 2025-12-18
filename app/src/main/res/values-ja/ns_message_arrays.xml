@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ns_message_send_title">
+        <item>感覚を魅了する新しい動画。</item>
+        <item>純粋な喜びのビジュアルの旅。</item>
+        <item>あなたのデイリービジュアルごちそうが届きました。</item>
+        <item>輝く動画を発見しよう。</item>
+        <item>夢をインスパイアする新しいクリップ。</item>
+        <item>心を躍らせる新しいアップロード。</item>
+        <item>ビジュアルワンダーの世界へようこそ。</item>
+        <item>美の波に乗ろう。</item>
+        <item>"この素晴らしい動画をチェック、きっと気に入る"</item>
+        <item>"新作すごいクリップが登場、見逃すな"</item>
+        <item>今すぐこのすごい動画を見るべき</item>
+        <item>あなただけのための素晴らしい動画</item>
+        <item>この動画はスキップするにはもったいない</item>
+        <item>新動画アラート！ チェックしに来て</item>
+        <item>"この動画をクリックして後悔しない"</item>
+        <item>あなたの目だけのための信じられない動画</item>
+        <item>"この超クールな動画を見逃すな"</item>
+        <item>"新クリップここに、完全に見る価値あり"</item>
+        <item>この動画で一日が良くなる</item>
+        <item>これ見て、中にすごい動画がある</item>
+        <item>必見の動画がリリースされた</item>
+        <item>"このすごい新クリップを見逃せない"</item>
+        <item>あなたのための新鮮で驚くべき動画</item>
+        <item>この動画がアプリで話題沸騰中</item>
+        <item>"この素晴らしい動画を見逃さないで"</item>
+        <item>"新動画アラート、信じられないほど"</item>
+        <item>すごい動画体験はここをクリック</item>
+        <item>このクリップは見逃すには素晴らしすぎる</item>
+        <item>このバイラル動画を今チェック</item>
+        <item>新しい驚くべき動画が待っている</item>
+        <item>これがどれだけすごいか見るべき</item>
+        <item>この動画はあなたの心を揺さぶる</item>
+        <item>"この素晴らしい新クリップをスキップするな"</item>
+        <item>あなただけの新鮮な動画、チェックして</item>
+        <item>"この驚くべき動画は見逃せない"</item>
+        <item>"新クリップアラート！見る価値あり"</item>
+        <item>"このすごい動画信じられない"</item>
+        <item>信じられない新動画が到着</item>
+        <item>これ見て、超クールな動画</item>
+        <item>この動画で笑顔になる</item>
+    </string-array>
+
+
+
+    <string-array name="ns_message_send_action">
+        <item>魅了</item>
+        <item>旅</item>
+        <item>ごちそう</item>
+        <item>輝く</item>
+        <item>インスパイア</item>
+        <item>スリル</item>
+        <item>入る</item>
+        <item>捕まえる</item>
+        <item>視聴</item>
+        <item>表示</item>
+        <item>再生</item>
+        <item>楽しむ</item>
+        <item>視聴</item>
+        <item>探検</item>
+        <item>再生</item>
+        <item>表示</item>
+        <item>視聴</item>
+        <item>楽しむ</item>
+        <item>再生</item>
+        <item>探検</item>
+        <item>表示</item>
+        <item>視聴</item>
+        <item>再生</item>
+        <item>見る</item>
+        <item>視聴</item>
+        <item>楽しむ</item>
+        <item>再生</item>
+        <item>表示</item>
+        <item>視聴</item>
+        <item>探検</item>
+        <item>再生</item>
+        <item>表示</item>
+        <item>視聴</item>
+        <item>楽しむ</item>
+        <item>再生</item>
+        <item>見る</item>
+        <item>視聴</item>
+        <item>表示</item>
+        <item>再生</item>
+        <item>楽しむ</item>
+    </string-array>
+
+
+
+</resources>

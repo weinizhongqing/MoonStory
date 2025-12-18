@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@mipmap/img_home_page_bg"
+    android:id="@+id/main">
+
+    <include
+        android:id="@+id/head_page"
+        layout="@layout/ns_head_page" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/language_page_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:visibility="visible"
+        tools:itemCount="10"
+        tools:listitem="@layout/ns_item_language_page"/>
+
+
+    <LinearLayout
+        android:id="@+id/language_page_ok_action"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="104dp"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/shape_native_ad_big_btn_bg"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto"
+            android:text="@string/ok"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+    <com.ping.night.story.admob.view.CustomNativeAdView
+        android:id="@+id/language_page_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

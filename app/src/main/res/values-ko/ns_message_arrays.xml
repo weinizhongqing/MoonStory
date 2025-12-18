@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ns_message_send_title">
+        <item>감각을 사로잡는 새로운 영상.</item>
+        <item>순수한 기쁨의 비주얼 여행.</item>
+        <item>당신의 일상 비주얼 특선이 제공됩니다.</item>
+        <item>빛나는 영상을 발견하세요.</item>
+        <item>꿈에 영감을 주는 새로운 클립.</item>
+        <item>당신의 심장을 두근거리게 하는 새로운 업로드.</item>
+        <item>비주얼 경이의 세계로 들어가세요.</item>
+        <item>지금 아름다움의 물결을 잡으세요.</item>
+        <item>"이 멋진 영상 확인하세요, 분명 좋아할 거예요"</item>
+        <item>"새로운 놀라운 클립 방금 나왔어요, 놓치지 마세요"</item>
+        <item>지금 바로 이 멋진 영상을 보셔야 해요</item>
+        <item>당신만을 기다리는 환상적인 영상</item>
+        <item>이 영상은 건너뛰기엔 너무 좋아요</item>
+        <item>새 영상 알림! 와서 확인하세요</item>
+        <item>"이 영상 클릭해도 후회 안 하실 거예요"</item>
+        <item>당신의 눈을 위한 놀라운 영상</item>
+        <item>"이 슈퍼 쿨한 영상 놓치지 마세요"</item>
+        <item>"새 클립 여기 있어요, 완전 가치 있어요"</item>
+        <item>이 영상이 하루를 더 좋게 만들어 줄 거예요</item>
+        <item>이거 보세요, 안에 멋진 영상이 있어요</item>
+        <item>방금 공개된 필수 시청 영상</item>
+        <item>"이 멋진 새 클립 놓칠 수 없어요"</item>
+        <item>당신을 위한 신선하고 놀라운 영상</item>
+        <item>이 영상이 앱을 강타하고 있어요</item>
+        <item>"이 훌륭한 영상을 그냥 지나치지 마세요"</item>
+        <item>"새 영상 알림, 믿기지 않을 거예요"</item>
+        <item>멋진 영상 경험을 위해 여기 클릭하세요</item>
+        <item>이 클립은 놓치기엔 너무 환상적이에요</item>
+        <item>이 바이럴 영상 지금 확인하세요</item>
+        <item>새로운 놀라운 영상이 기다려요</item>
+        <item>이게 얼마나 멋진지 보셔야 해요</item>
+        <item>이 영상이 당신을 깜짝 놀라게 할 거예요</item>
+        <item>"이 환상적인 새 클립 건너뛰지 마세요"</item>
+        <item>오직 당신을 위한 신선한 영상, 확인하세요</item>
+        <item>"이 놀라운 영상 놓치면 안 돼요"</item>
+        <item>"새 클립 알림! 볼 가치 있어요"</item>
+        <item>"이 멋진 영상 믿기지 않을 거예요"</item>
+        <item>놀라운 새 영상이 도착했어요</item>
+        <item>이거 보세요, 슈퍼 쿨한 영상</item>
+        <item>이 영상이 당신을 미소 짓게 할 거예요</item>
+    </string-array>
+
+
+
+    <string-array name="ns_message_send_action">
+        <item>매혹</item>
+        <item>여행</item>
+        <item>대접</item>
+        <item>빛나기</item>
+        <item>영감</item>
+        <item>스릴</item>
+        <item>들어가기</item>
+        <item>잡기</item>
+        <item>시청</item>
+        <item>보기</item>
+        <item>재생</item>
+        <item>즐기기</item>
+        <item>시청</item>
+        <item>탐색</item>
+        <item>재생</item>
+        <item>보기</item>
+        <item>시청</item>
+        <item>즐기기</item>
+        <item>재생</item>
+        <item>탐색</item>
+        <item>보기</item>
+        <item>시청</item>
+        <item>재생</item>
+        <item>보기</item>
+        <item>시청</item>
+        <item>즐기기</item>
+        <item>재생</item>
+        <item>보기</item>
+        <item>시청</item>
+        <item>탐색</item>
+        <item>재생</item>
+        <item>보기</item>
+        <item>시청</item>
+        <item>즐기기</item>
+        <item>재생</item>
+        <item>보기</item>
+        <item>시청</item>
+        <item>보기</item>
+        <item>재생</item>
+        <item>즐기기</item>
+    </string-array>
+
+
+
+</resources>

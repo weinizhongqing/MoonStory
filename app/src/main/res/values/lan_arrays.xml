@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 语言代码列表，用于支持不同语言的标识 -->
+    <string-array name="lan_code">
+        <item>en</item><!-- 英语 -->
+        <item>fr</item><!-- 法语 -->
+        <item>pt</item><!-- 葡萄牙语 -->
+        <item>hi</item><!-- 印地语 -->
+        <item>es</item><!-- 西班牙语 -->
+        <item>ar</item><!-- 阿拉伯语 -->
+        <item>vi</item><!-- 越南语 -->
+        <item>ko</item><!-- 韩语 -->
+        <item>ja</item><!-- 日语 -->
+    </string-array>
+
+    <!-- 语言名称列表，对应 skit_lan_code 中的代码，用于显示给用户的语言名称 -->
+    <string-array name="lan_name">
+        <item>English</item><!-- 英语 -->
+        <item>Français</item><!-- 法语 -->
+        <item>Português</item><!-- 葡萄牙语 -->
+        <item>हिन्दी</item><!-- 印地语 -->
+        <item>Español</item><!-- 西班牙语 -->
+        <item>العربية</item><!-- 阿拉伯语 -->
+        <item>Tiếng Việt</item><!-- 越南语 -->
+        <item>한국어</item><!-- 韩语 -->
+        <item>日本語</item><!-- 日语 -->
+    </string-array>
+
+</resources>

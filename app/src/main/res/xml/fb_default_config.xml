@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+
+    <entry>
+        <key>ns_user_ordinary</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>ns_user_buy</key>
+        <value>true</value>
+    </entry>
+
+    <entry>
+        <key>ns_facebook_threshold</key>
+        <value>-1.0</value>
+    </entry>
+
+    <entry>
+        <key>ns_config_v_hour</key>
+        <value>48</value>
+    </entry>
+    <entry>
+        <key>ns_cloc</key>
+        <value>false</value>
+    </entry>
+
+    <entry>
+        <key>ns_fb_value_threshold</key>
+        <value>0.0</value>
+    </entry>
+
+
+</defaultsMap>

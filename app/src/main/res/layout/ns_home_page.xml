@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@mipmap/img_home_page_bg"
+    android:clipChildren="false"
+    android:id="@+id/main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scrollbars="none"
+        android:clipChildren="false">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:clipChildren="false">
+            
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/home_page_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20dp"
+                    app:lottie_speed="1.0"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="home_page_loading.json"
+                    app:lottie_loop="true" />
+
+
+
+                <ImageView
+                    android:id="@+id/home_page_settings"
+                    android:layout_width="42dp"
+                    android:layout_height="42dp"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginVertical="4dp"
+                    android:src="@mipmap/img_home_page_settings"/>
+                
+                
+            </FrameLayout>
+            
+            
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginHorizontal="16dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/home_page_local_videos"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="@mipmap/img_home_page_video_bg">
+                    
+                    <ImageView
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:src="@mipmap/img_home_page_video"/>
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="12dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/local_videos"
+                        android:textColor="#EF7E06"
+                        android:textSize="16sp"
+                        android:textStyle="bold"/>
+                    
+
+                </LinearLayout>
+
+                
+                <Space
+                    android:layout_width="12dp"
+                    android:layout_height="0dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+
+                    <LinearLayout
+                        android:id="@+id/home_page_downloading"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:background="@mipmap/img_home_page_download_bg"
+                        tools:ignore="NestedWeights">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@mipmap/img_home_page_download"/>
+                        <Space
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/downloading"
+                            android:textColor="#EF7E06"
+                            android:textSize="16sp"
+                            android:textStyle="bold"/>
+
+
+                    </LinearLayout>
+
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="12dp"/>
+
+
+                    <LinearLayout
+                        android:id="@+id/home_page_favorite"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        android:background="@mipmap/img_home_page_download_bg">
+
+                        <ImageView
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@mipmap/img_home_page_video"/>
+                        <Space
+                            android:layout_width="12dp"
+                            android:layout_height="12dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/my_favorite"
+                            android:textColor="#EF7E06"
+                            android:textSize="16sp"
+                            android:textStyle="bold"/>
+
+
+                    </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+            
+            
+
+            <FrameLayout
+                android:id="@+id/home_page_recommend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginVertical="20dp"
+                android:clipChildren="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/img_home_page_girl_bg"
+                    android:layout_gravity="bottom"
+                    android:scaleType="fitXY"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginHorizontal="20dp"
+                    android:src="@mipmap/img_home_page_girl"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                   android:layout_margin="27dp"
+                    android:layout_gravity="bottom">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/recommended"
+                        android:textSize="24sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/videos"
+                        android:textSize="24sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:drawablePadding="10dp"
+                        android:gravity="center"
+                        app:drawableEndCompat="@mipmap/img_home_page_end" />
+
+                </LinearLayout>
+
+
+
+            </FrameLayout>
+
+            
+            
+        </LinearLayout>
+
+        
+    </ScrollView>
+
+
+    <com.ping.night.story.admob.view.CustomNativeAdView
+        android:id="@+id/home_page_native_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

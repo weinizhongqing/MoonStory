@@ -1,0 +1,90 @@
+{
+  "ns_ad_position_config": [
+    {
+      "ns_ad_position": "ns_start",
+      "ns_position_type": "ns_open",
+      "ns_position_status": 0
+    },
+    {
+      "ns_ad_position": "ns_language_i",
+      "ns_position_type": "ns_inter",
+      "ns_position_status": 1
+    },
+    {
+      "ns_ad_position": "ns_click_i",
+      "ns_position_type": "ns_inter",
+      "ns_position_status": 1
+    },
+    {
+      "ns_ad_position": "ns_back_i",
+      "ns_position_type": "ns_inter",
+      "ns_position_status": 1
+    },
+    {
+      "ns_ad_position": "ns_parse_i",
+      "ns_position_type": "ns_inter",
+      "ns_position_status": 0
+    },
+    {
+      "ns_ad_position": "ns_language_n",
+      "ns_position_type": "ns_native",
+      "ns_position_status": 1
+    },
+    {
+      "ns_ad_position": "ns_home_n",
+      "ns_position_type": "ns_native",
+      "ns_position_status": 0
+    },
+    {
+      "ns_ad_position": "ns_parse_n",
+      "ns_position_type": "ns_native",
+      "ns_position_status": 1
+    },
+    {
+      "ns_ad_position": "ns_download_suc_n",
+      "ns_position_type": "ns_native",
+      "ns_position_status": 1
+    },
+    {
+      "ns_ad_position": "ns_func_n",
+      "ns_position_type": "ns_native",
+      "ns_position_status": 0
+    }
+  ],
+  "ns_open": [
+    {
+      "s_type":"native",
+      "id":"ca-app-pub-3940256099942544/2247696110"
+    },
+    {
+      "s_type":"open",
+      "id":"ca-app-pub-3940256099942544/9257395921"
+    },
+    {
+      "s_type":"inter",
+      "id":"ca-app-pub-3940256099942544/1033173712"
+    }
+  ],
+
+  "ns_native": [
+    {
+      "s_type":"native",
+      "id":"ca-app-pub-3940256099942544/2247696110"
+    }
+  ],
+  "ns_inter": [
+    {
+      "s_type":"inter",
+      "id":"ca-app-pub-3940256099942544/1033173712"
+    },{
+      "s_type":"native",
+      "id":"ca-app-pub-3940256099942544/2247696110"
+    }
+  ],
+
+  "ns_ad_cache_count": {
+    "ns_native": 1,
+    "ns_inter": 1,
+    "ns_open": 1
+  }
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ns_message_send_title">
+        <item>Novos vídeos para encantar seus sentidos.</item>
+        <item>Uma jornada visual de puro deleite.</item>
+        <item>Seu mimo visual diário está servido.</item>
+        <item>Descubra vídeos que brilham.</item>
+        <item>Novos clipes para inspirar seus sonhos.</item>
+        <item>Novos uploads para emocionar seu coração.</item>
+        <item>Entre em um mundo de maravilhas visuais.</item>
+        <item>Pegue a onda da beleza agora.</item>
+        <item>"Confira este vídeo deslumbrante, você vai amar"</item>
+        <item>"Novo clipe incrível acabou de sair, não perca"</item>
+        <item>Você precisa ver este vídeo incrível agora</item>
+        <item>Um vídeo fantástico esperando por você</item>
+        <item>Este vídeo é bom demais para pular</item>
+        <item>Alerta de vídeo novo! Venha conferir</item>
+        <item>"Você não vai se arrepender de clicar neste vídeo"</item>
+        <item>Um vídeo incrível apenas para seus olhos</item>
+        <item>"Não perca este vídeo super legal"</item>
+        <item>"Novo clipe aqui, vale muito a pena"</item>
+        <item>Este vídeo vai melhorar seu dia</item>
+        <item>Confira isso, vídeo incrível aqui</item>
+        <item>Um vídeo imperdível acabou de ser lançado</item>
+        <item>"Você não pode perder este novo clipe incrível"</item>
+        <item>Vídeo novo e incrível para você</item>
+        <item>Este vídeo está arrasando no app</item>
+        <item>"Não deixe este ótimo vídeo passar"</item>
+        <item>"Alerta de vídeo novo, é incrível"</item>
+        <item>Clique aqui para uma experiência de vídeo incrível</item>
+        <item>Este clipe é fantástico demais para perder</item>
+        <item>Confira este vídeo viral agora</item>
+        <item>Um novo vídeo incrível está esperando</item>
+        <item>Você precisa ver como isso é incrível</item>
+        <item>Este vídeo vai te surpreender</item>
+        <item>"Não pule este novo clipe fantástico"</item>
+        <item>Vídeo novo só para você, confira</item>
+        <item>"Este vídeo incrível não pode ser perdido"</item>
+        <item>"Alerta de novo clipe! Vale a pena assistir"</item>
+        <item>"Você não vai acreditar neste vídeo incrível"</item>
+        <item>Um novo vídeo incrível chegou</item>
+        <item>Confira isso, vídeo super legal</item>
+        <item>Este vídeo vai fazer você sorrir</item>
+    </string-array>
+
+
+
+    <string-array name="ns_message_send_action">
+        <item>Encantar</item>
+        <item>Jornada</item>
+        <item>Tratar</item>
+        <item>Brilhar</item>
+        <item>Inspirar</item>
+        <item>Emoção</item>
+        <item>Entrar</item>
+        <item>Pegar</item>
+        <item>Assistir</item>
+        <item>Ver</item>
+        <item>Reproduzir</item>
+        <item>Aproveitar</item>
+        <item>Assistir</item>
+        <item>Explorar</item>
+        <item>Reproduzir</item>
+        <item>Ver</item>
+        <item>Assistir</item>
+        <item>Aproveitar</item>
+        <item>Reproduzir</item>
+        <item>Explorar</item>
+        <item>Ver</item>
+        <item>Assistir</item>
+        <item>Reproduzir</item>
+        <item>Ver</item>
+        <item>Assistir</item>
+        <item>Aproveitar</item>
+        <item>Reproduzir</item>
+        <item>Ver</item>
+        <item>Assistir</item>
+        <item>Explorar</item>
+        <item>Reproduzir</item>
+        <item>Ver</item>
+        <item>Assistir</item>
+        <item>Aproveitar</item>
+        <item>Reproduzir</item>
+        <item>Ver</item>
+        <item>Assistir</item>
+        <item>Ver</item>
+        <item>Reproduzir</item>
+        <item>Aproveitar</item>
+    </string-array>
+
+
+
+</resources>

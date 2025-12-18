@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_page_title">نساعدك على تحميل مقاطع الفيديو المفضلة لديك هنا!</string>
+    <string name="view">عرض</string>
+    <string name="play">تشغيل</string>
+    <string name="start">بدء</string>
+    <string name="dialog_download_suc">تم التحميل بنجاح</string>
+    <string name="ad_loading">جاري تحميل الإعلان…</string>
+    <string name="download">تحميل</string>
+    <string name="downloading">جاري التحميل</string>
+    <string name="my_favorite">مفضلتي</string>
+    <string name="favorite">مفضلة</string>
+    <string name="videos">مقاطع فيديو</string>
+    <string name="local_videos">مقاطع فيديو محلية</string>
+    <string name="settings">الإعدادات</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="parse_fail">فشل تحليل الفيديو، يرجى المحاولة مرة أخرى</string>
+    <string name="downloading_empty_content">لا توجد تحميلات بعد؟ جرب برنامج التحميل الخاص بنا!</string>
+    <string name="video_empty_content">لا توجد مقاطع فيديو محملة محليًا</string>
+    <string name="how_to_use">كيفية الاستخدام؟</string>
+    <string name="language">اللغة</string>
+    <string name="about">حول</string>
+    <string name="ok">موافق</string>
+    <string name="save">حفظ</string>
+    <string name="video_analysis">تحليل الفيديو</string>
+    <string name="notify_des">فيديوك جاهز! شغّل الإشعارات للحصول على تنبيهات التحميل الفوري وتحديثات الميزات الجديدة.</string>
+    <string name="allow">السماح</string>
+    <string name="cancel">إلغاء</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="delete">حذف</string>
+    <string name="del_downloading_content">هل أنت متأكد من حذف تحميل الفيديو؟ الحذف لا يمكن استعادته.</string>
+    <string name="del_downloaded_content">هل أنت متأكد من حذف الفيديو المحلي؟ الحذف لا يمكن استعادته.</string>
+    <string name="share">مشاركة</string>
+    <string name="url_error">يرجى أولاً نسخ رابط الفيديو من X، ثم العودة إلى هذه الصفحة!</string>
+    <string name="recommended">مُوصى به</string>
+    <string name="recommend_videos">مقاطع فيديو</string>
+    <string name="pause">متوقف</string>
+    <string name="watch">مشاهدة</string>
+    <string name="next_step">الخطوة التالية</string>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_page_title">여기에서 좋아하는 동영상을 다운로드하도록 도와드립니다!</string>
+    <string name="view">보기</string>
+    <string name="play">재생</string>
+    <string name="start">시작</string>
+    <string name="dialog_download_suc">성공적으로 다운로드됨</string>
+    <string name="ad_loading">광고 로딩 중…</string>
+    <string name="download">다운로드</string>
+    <string name="downloading">다운로드 중</string>
+    <string name="my_favorite">내 즐겨찾기</string>
+    <string name="favorite">즐겨찾기</string>
+    <string name="videos">동영상</string>
+    <string name="local_videos">로컬 동영상</string>
+    <string name="settings">설정</string>
+    <string name="retry">다시 시도</string>
+    <string name="parse_fail">동영상 분석 실패, 다시 시도해 주세요</string>
+    <string name="downloading_empty_content">아직 다운로드가 없으신가요? 저희 다운로더를 사용해 보세요!</string>
+    <string name="video_empty_content">로컬에 다운로드된 동영상이 없습니다</string>
+    <string name="how_to_use">사용 방법?</string>
+    <string name="language">언어</string>
+    <string name="about">정보</string>
+    <string name="ok">확인</string>
+    <string name="save">저장</string>
+    <string name="video_analysis">동영상 분석</string>
+    <string name="notify_des">동영상이 준비되었습니다! 즉시 다운로드 알림 및 새 기능 업데이트를 위해 알림을 켜세요.</string>
+    <string name="allow">허용</string>
+    <string name="cancel">취소</string>
+    <string name="notifications">알림</string>
+    <string name="delete">삭제</string>
+    <string name="del_downloading_content">동영상 다운로드를 삭제하시겠습니까? 삭제 후 복구할 수 없습니다.</string>
+    <string name="del_downloaded_content">로컬 동영상을 삭제하시겠습니까? 삭제 후 복구할 수 없습니다.</string>
+    <string name="share">공유</string>
+    <string name="url_error">먼저 X에서 동영상 링크를 복사한 후 이 페이지로 돌아오세요!</string>
+    <string name="recommended">추천</string>
+    <string name="recommend_videos">동영상</string>
+    <string name="pause">일시정지됨</string>
+    <string name="watch">보기</string>
+    <string name="next_step">다음 단계</string>
+</resources>

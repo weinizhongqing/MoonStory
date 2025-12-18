@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ns_message_send_title">
+        <item>New videos to enchant your senses.</item>
+        <item>A visual journey of pure delight.</item>
+        <item>Your daily visual treat is served.</item>
+        <item>Discover videos that shine bright.</item>
+        <item>Fresh clips to inspire your dreams.</item>
+        <item>New uploads to thrill your heart.</item>
+        <item>Enter a world of visual wonders.</item>
+        <item>Catch the beauty wave now.</item>
+        <item>"Check out this stunning video, you'll love it"</item>
+        <item>"New amazing clip just dropped, don't miss"</item>
+        <item>You gotta see this awesome video right now</item>
+        <item>A fantastic video waiting just for you</item>
+        <item>This video is too good to skip</item>
+        <item>Fresh video alert! Come and check</item>
+        <item>"You won't regret clicking this video"</item>
+        <item>An incredible video just for your eyes</item>
+        <item>"Don't miss this super cool video"</item>
+        <item>"New clip here, it's totally worth it"</item>
+        <item>This video will make your day better</item>
+        <item>Check this out, amazing video inside</item>
+        <item>A must-watch video just released</item>
+        <item>"You can't miss this awesome new clip"</item>
+        <item>Fresh and amazing video for you</item>
+        <item>This video is taking the app by storm</item>
+        <item>"Don't let this great video pass you by"</item>
+        <item>"New video alert, it's incredible"</item>
+        <item>Click here for an amazing video experience</item>
+        <item>This clip is too fantastic to miss</item>
+        <item>Check out this viral video now</item>
+        <item>A new amazing video is waiting</item>
+        <item>You gotta see how awesome this is</item>
+        <item>This video will blow your mind</item>
+        <item>"Don't skip this fantastic new clip"</item>
+        <item>Fresh video just for you, check it</item>
+        <item>"This amazing video can't be missed"</item>
+        <item>"New clip alert! It's worth watching"</item>
+        <item>"You won't believe this awesome video"</item>
+        <item>An incredible new video is here</item>
+        <item>Check this out, super cool video</item>
+        <item>This video will make you smile</item>
+    </string-array>
+
+
+
+    <string-array name="ns_message_send_action">
+        <item>Enchant</item>
+        <item>Journey</item>
+        <item>Treat</item>
+        <item>Shine</item>
+        <item>Inspire</item>
+        <item>Thrill</item>
+        <item>Enter</item>
+        <item>Catch</item>
+        <item>Watch</item>
+        <item>View</item>
+        <item>Play</item>
+        <item>Enjoy</item>
+        <item>Watch</item>
+        <item>Explore</item>
+        <item>Play</item>
+        <item>View</item>
+        <item>Watch</item>
+        <item>Enjoy</item>
+        <item>Play</item>
+        <item>Explore</item>
+        <item>View</item>
+        <item>Watch</item>
+        <item>Play</item>
+        <item>See</item>
+        <item>Watch</item>
+        <item>Enjoy</item>
+        <item>Play</item>
+        <item>View</item>
+        <item>Watch</item>
+        <item>Explore</item>
+        <item>Play</item>
+        <item>View</item>
+        <item>Watch</item>
+        <item>Enjoy</item>
+        <item>Play</item>
+        <item>See</item>
+        <item>Watch</item>
+        <item>View</item>
+        <item>Play</item>
+        <item>Enjoy</item>
+    </string-array>
+
+
+
+</resources>

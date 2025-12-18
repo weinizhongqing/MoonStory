@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_page_title">Chúng tôi giúp bạn tải xuống video yêu thích của bạn tại đây!</string>
+    <string name="view">Xem</string>
+    <string name="play">Phát</string>
+    <string name="start">Bắt đầu</string>
+    <string name="dialog_download_suc">Đã tải xuống thành công</string>
+    <string name="ad_loading">Quảng cáo đang tải…</string>
+    <string name="download">Tải xuống</string>
+    <string name="downloading">Đang tải xuống</string>
+    <string name="my_favorite">Yêu thích của tôi</string>
+    <string name="favorite">Yêu thích</string>
+    <string name="videos">Video</string>
+    <string name="local_videos">Video cục bộ</string>
+    <string name="settings">Cài đặt</string>
+    <string name="retry">Thử lại</string>
+    <string name="parse_fail">Phân tích video thất bại, vui lòng thử lại</string>
+    <string name="downloading_empty_content">Chưa có lượt tải xuống? Hãy thử trình tải xuống của chúng tôi!</string>
+    <string name="video_empty_content">Không có video nào được tải xuống cục bộ</string>
+    <string name="how_to_use">Cách sử dụng?</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="about">Giới thiệu</string>
+    <string name="ok">OK</string>
+    <string name="save">Lưu</string>
+    <string name="video_analysis">Phân tích video</string>
+    <string name="notify_des">Video của bạn đã sẵn sàng! Bật thông báo để nhận cảnh báo tải xuống ngay lập tức và cập nhật tính năng mới.</string>
+    <string name="allow">Cho phép</string>
+    <string name="cancel">Hủy</string>
+    <string name="notifications">Thông báo</string>
+    <string name="delete">Xóa</string>
+    <string name="del_downloading_content">Bạn có chắc muốn xóa việc tải xuống video không? Xóa sẽ không thể khôi phục.</string>
+    <string name="del_downloaded_content">Bạn có chắc muốn xóa video cục bộ không? Xóa sẽ không thể khôi phục.</string>
+    <string name="share">Chia sẻ</string>
+    <string name="url_error">Vui lòng sao chép liên kết video từ X trước, sau đó quay lại trang này!</string>
+    <string name="recommended">Đề xuất</string>
+    <string name="recommend_videos">Video</string>
+    <string name="pause">Tạm dừng</string>
+    <string name="watch">Xem</string>
+    <string name="next_step">Bước tiếp theo</string>
+</resources>
