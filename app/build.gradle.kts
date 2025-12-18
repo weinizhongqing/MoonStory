@@ -20,18 +20,31 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.ping.night.story"
+        applicationId = "com.videostory.moon.saver.xy"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        setProperty("archivesBaseName", "${rootProject.name}-v${versionName}-${versionCode}")
+    }
+
+    signingConfigs {
+        create("release") {
+            storeFile = file("../moon_story_release.jks")
+            storePassword = "thirtyfive8023@.."
+            keyAlias = "thirtyfive"
+            keyPassword = "thirtyfive8023@.."
+        }
     }
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            signingConfig = signingConfigs.getByName("release")
+            isMinifyEnabled = true
+            isShrinkResources = true
+            isDebuggable = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"

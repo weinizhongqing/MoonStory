@@ -1,10 +1,10 @@
 package com.ping.night.story
 
 object Constant {
-    const val SOLAR_KEY = "xxxxxxxxxxx"
+    const val SOLAR_KEY = "ef6f9ec6ef6cb5fb"
 
-    const val PARSE_URL_KEY = "https://test.twelvedl.xyz/vb/dpl/"
-    const val UPLOAD_TOKEN_URL_KEY = "https://test.twelvedl.xyz/van/cok/"
+    const val PARSE_URL_KEY = "https://api.twelvedl.xyz/vb/dpl/"
+    const val UPLOAD_TOKEN_URL_KEY = "https://api.twelvedl.xyz/van/cok/"
     const val LANGUAGE_RADIO_KEY = "language_radio_key"
     const val VIDEO_PARSE_KEY = "video_parse_key"
     const val APP_RUN_STATUS_KEY = "app_run_status_key"
