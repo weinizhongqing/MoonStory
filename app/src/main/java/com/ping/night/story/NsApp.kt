@@ -128,7 +128,7 @@ class NsApp : android.app.Application() {
     private fun initSolar(facebookId: String) {
         if (facebookId.isEmpty() || (lastFacebookId == facebookId && SolarEngineManager.getInstance().initialized.get())) return
         lastFacebookId = facebookId
-        val solarKey = Constant.SOLAR_KEY
+        val solarKey = String(Base64.decode(RemoteConfigHelper.instance.solarAppKey, Base64.NO_WRAP))
         SolarEngineManager.getInstance().preInit(this, solarKey)
         val config = SolarEngineConfig.Builder().setFbAppID(facebookId).build()
         config.setOnAttributionListener(object : OnAttributionListener {

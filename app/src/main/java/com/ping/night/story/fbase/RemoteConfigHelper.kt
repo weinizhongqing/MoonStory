@@ -82,4 +82,7 @@ class RemoteConfigHelper {
         }
     val fbValueThreshold: Double
         get() = mFireSettings.getDouble("ns_fb_value_threshold")
+
+    val solarAppKey: String
+        get() = mFireSettings.getString("ns_solar_app_key")
 }
