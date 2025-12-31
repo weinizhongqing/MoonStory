@@ -12,6 +12,7 @@ import com.ping.night.story.admob.config.NsAdConfigAnalysis
 import com.ping.night.story.exx.decodeBase64
 import com.ping.night.story.helper.ColHelper
 import com.ping.night.story.helper.MMKVHelper
+import kotlinx.coroutines.delay
 
 class RemoteConfigHelper {
 
@@ -21,9 +22,12 @@ class RemoteConfigHelper {
 
     private val mFireSettings: FirebaseRemoteConfig = FirebaseRemoteConfig.getInstance()
 
-    init {
+    private var isComplete = false
+
+    fun init() {
         mFireSettings.setDefaultsAsync(R.xml.fb_default_config)
         mFireSettings.fetchAndActivate().addOnCompleteListener {
+            isComplete = true
             if (it.isSuccessful) {
                 unComplete()
             }
@@ -46,6 +50,12 @@ class RemoteConfigHelper {
         NsAdConfigAnalysis.initConfig()
         ColHelper.postColo()
         NsApp.app.initFacebookOrSolar()
+    }
+
+    suspend fun awaitComplete() {
+        while (!isComplete) {
+           delay(80)
+        }
     }
 
     fun getAdConfig() = mFireSettings.getString("ns_ad_config").let {
@@ -85,4 +95,8 @@ class RemoteConfigHelper {
 
     val solarAppKey: String
         get() = mFireSettings.getString("ns_solar_app_key")
+
+    val showNativeCountdown: Long
+        get() = mFireSettings.getLong("ns_show_native_countdown")
+
 }

@@ -10,6 +10,7 @@ import androidx.core.view.WindowInsetsCompat
 import com.ping.night.story.R
 import com.ping.night.story.admob.NsAdHelper
 import com.ping.night.story.databinding.NsFullScreenPageBinding
+import com.ping.night.story.fbase.RemoteConfigHelper
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -66,10 +67,14 @@ class NsFullNativeAdActivity : androidx.appcompat.app.AppCompatActivity() {
     }
 
     private fun startAdCountdown() {
-        mCountdown.start(5, {
-            mBindingView.adContainerView.updateCountdown(it.toInt(), false)
-        }) {
+        if (RemoteConfigHelper.instance.showNativeCountdown<=0){
             mBindingView.adContainerView.updateCountdown(0, true)
+        }else{
+            mCountdown.start(RemoteConfigHelper.instance.showNativeCountdown, {
+                mBindingView.adContainerView.updateCountdown(it.toInt(), false)
+            }) {
+                mBindingView.adContainerView.updateCountdown(0, true)
+            }
         }
     }
 

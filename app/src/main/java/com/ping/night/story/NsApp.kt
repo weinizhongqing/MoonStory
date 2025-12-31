@@ -57,6 +57,7 @@ class NsApp : android.app.Application() {
         MMKVHelper.initMMKV()
         try {
             FirebaseApp.initializeApp(this)
+            RemoteConfigHelper.instance.init()
             NsAdHelper.instance.initialize(this)
         } catch (e: Exception) {
             e.printStackTrace()
