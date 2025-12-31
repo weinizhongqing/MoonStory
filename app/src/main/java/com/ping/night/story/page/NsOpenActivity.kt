@@ -24,10 +24,12 @@ import com.ping.night.story.admob.position.NsPosition.isEnable
 import com.ping.night.story.admob.view.NsAdPage
 import com.ping.night.story.databinding.NsStartPageBinding
 import com.ping.night.story.fbase.AffairHelper
+import com.ping.night.story.fbase.RemoteConfigHelper
 import com.ping.night.story.helper.MMKVHelper
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withTimeoutOrNull
 
 class NsOpenActivity : NsAdPage() {
 
@@ -54,7 +56,6 @@ class NsOpenActivity : NsAdPage() {
         getNotifyPM {
             UPMRequest {
                 lifecycleScope.launch(Dispatchers.Main) {
-                    delay(3000)
                     loadOpenAd()
                 }
             }
@@ -135,7 +136,15 @@ class NsOpenActivity : NsAdPage() {
 
     private fun loadOpenAd(){
         lifecycleScope.launch {
-            delay(300)
+            val t1 = System.currentTimeMillis()
+            withTimeoutOrNull(3000){
+                RemoteConfigHelper.instance.awaitComplete()
+            }
+            val t2 = System.currentTimeMillis()
+
+            if (t2 - t1 < 3000){
+                delay(3000 - (t2 - t1))
+            }
             if (NsPosition.AD_START.isEnable()) {
                 AffairHelper.instance.event("arrive_ad_${NsPosition.AD_START}")
             }

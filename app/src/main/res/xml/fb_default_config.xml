@@ -30,5 +30,11 @@
         <value>0.0</value>
     </entry>
 
+    <entry>
+        <key>ns_show_native_countdown</key>
+        <value>5</value>
+    </entry>
+
+
 
 </defaultsMap>
