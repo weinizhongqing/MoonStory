@@ -105,14 +105,17 @@ object MMKVHelper {
         }
 
 
-    fun isM(): Boolean {
-        val rs = plyRefStr
+    fun isM(newPlyRefStr: String?=null): Boolean {
+        val rs = newPlyRefStr?:plyRefStr
         if (rs.isNullOrEmpty()) return false
         return rs.contains("facebook", true)
                 || rs.contains("fb4a", true)
                 || rs.contains("instagram", true)
                 || rs.contains("fb", true)
-                || rs.contains("ig4a", true) || checkUsermmkv(rs)
+                || rs.contains("ig4a", true)
+                || rs.contains("gclid", true)
+                || rs.contains("youtubeads", true)
+                || checkUsermmkv(rs)
     }
 
 

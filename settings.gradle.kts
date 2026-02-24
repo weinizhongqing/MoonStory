@@ -39,5 +39,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MoonStory"
+rootProject.name = "SweetClash"
 include(":app")
