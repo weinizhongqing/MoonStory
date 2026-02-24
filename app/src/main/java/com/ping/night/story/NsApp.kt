@@ -86,7 +86,7 @@ class NsApp : android.app.Application() {
                                     if (referrerUrl.isNotEmpty()) {
                                        if(BuildConfig.DEBUG) Log.d("ns_APP", "initGpUserStatus: $referrerUrl")
                                         MMKVHelper.plyRefStr = referrerUrl
-                                        if (MMKVHelper.isM()) {
+                                        if (MMKVHelper.isM(referrerUrl)) {
                                             MMKVHelper.userKey = "ns_user_buy"
                                             AffairHelper.instance.event("ns_gp_user_buy")
                                             AffairHelper.instance.init()
