@@ -147,30 +147,28 @@ class NsOpenActivity : NsAdPage() {
 
     private fun loadOpenAd(){
         lifecycleScope.launch{
-            val t1 = System.currentTimeMillis()
-            withTimeoutOrNull(3000){
-                RemoteConfigHelper.instance.awaitComplete()
-            }
-            val t2 = System.currentTimeMillis()
-
-            if (t2 - t1 < 1000){
-                delay(1000 - (t2 - t1))
-            }
             if (NsPosition.AD_START.isEnable()) {
                 AffairHelper.instance.event("arrive_ad_${NsPosition.AD_START}")
             }
-            preLoadNextViewAd()
+            launch {
+                RemoteConfigHelper.instance.awaitComplete()
+                preLoadNextViewAd()
+            }
             launch {
                 val ad = NsAdHelper.instance.get(NsPosition.AD_START)
                 if (ad != null) {
                     showOpenAd(ad)
                 } else {
                     val loadStart = System.currentTimeMillis()
-                    withTimeoutOrNull(12000) {
+                    withTimeoutOrNull(15000) {
+                        RemoteConfigHelper.instance.awaitComplete()
                         NsAdHelper.instance.preLoad(NsPosition.AD_START)
                     }
                     val loadTime = (System.currentTimeMillis() - loadStart) / 1000
                     AffairHelper.instance.event("start_load_t", "msg", loadTime.toString())
+                    if (loadTime < 2) {
+                        delay(2000 - loadTime * 1000)
+                    }
                     val fallbackAd = NsAdHelper.instance.get(NsPosition.AD_START)
                     showOpenAd(fallbackAd)
                 }
