@@ -69,10 +69,12 @@ class NsAdHelper {
             if (au != null) {
                 if (au.id.isNotEmpty()) {
                     for (id in au.id) {
+                        adLog("[$key]-[${id.type}] start preLoad")
                         ret = load.preAd(key, au, id, activity)
                         if (ret != null) {
                             return@withContext
                         }
+                       adLog("[$key]-[${id.type}] end preLoad")
                     }
                 }
             }

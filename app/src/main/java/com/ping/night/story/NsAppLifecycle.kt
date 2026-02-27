@@ -48,6 +48,7 @@ class NsAppLifecycle : Application.ActivityLifecycleCallbacks {
         if (activity is MainActivity) {
             mainIsStarted = true
         }
+        if (NsApp.isClickNative) return
         activeActivities.add(activity)
     }
 
@@ -60,6 +61,7 @@ class NsAppLifecycle : Application.ActivityLifecycleCallbacks {
                     putExtra(Constant.APP_RUN_STATUS_MODE_KEY, "hot")
                 })
             NsApp.ignoreOpen = false
+            NsApp.isClickNative = false
         }
         startedAct++
     }
@@ -90,6 +92,9 @@ class NsAppLifecycle : Application.ActivityLifecycleCallbacks {
 
 
     private fun hasAdActivity(): Boolean {
+        if (NsApp.isClickNative) {
+            return false
+        }
         for (activity in activeActivities) {
             if (activity is AdActivity || activity is NsFullNativeAdActivity) {
                 return true

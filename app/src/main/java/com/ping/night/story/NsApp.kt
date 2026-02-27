@@ -28,6 +28,7 @@ import com.reyun.solar.engine.OnAttributionListener
 import com.reyun.solar.engine.SolarEngineConfig
 import com.reyun.solar.engine.SolarEngineManager
 import com.reyun.solar.engine.infos.SEAdImpEventModel
+import com.tencent.mmkv.MMKV
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
@@ -42,6 +43,7 @@ class NsApp : android.app.Application() {
         lateinit var app: NsApp
             private set
         var ignoreOpen = false
+        var isClickNative = false
         val scope by lazy {
             CoroutineScope(SupervisorJob() + Dispatchers.IO + CoroutineExceptionHandler { _, throwable ->
                 Firebase.crashlytics.recordException(throwable)
@@ -54,6 +56,7 @@ class NsApp : android.app.Application() {
     override fun onCreate() {
         super.onCreate()
         app = this
+        MMKV.initialize(this)
         MMKVHelper.initMMKV()
         try {
             FirebaseApp.initializeApp(this)

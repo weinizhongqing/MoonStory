@@ -1,6 +1,7 @@
 package com.ping.night.story.admob.view
 
 import android.os.Bundle
+import android.os.CountDownTimer
 import androidx.lifecycle.lifecycleScope
 import com.ping.night.story.admob.NsAd
 import com.ping.night.story.admob.NsAdHelper
@@ -56,6 +57,8 @@ open class NsAdPage : BasePage(){
         }
     }
 
+    private var interTimer: CountDownTimer? = null
+
     protected fun showInterAd(position: String, call: () -> Unit) {
         if (isAppRun) {
             if (position.isEnable()) {
@@ -72,24 +75,32 @@ open class NsAdPage : BasePage(){
                     lifecycleScope.launch {
                         preLoadAd(position)
                         withContext(Dispatchers.Main) {
-                            object : android.os.CountDownTimer(5000, 100) {
+                            interTimer?.cancel()
+                            interTimer = object : CountDownTimer(5000, 100) {
+
                                 override fun onTick(millisUntilFinished: Long) {
-                                    val onTickAD =
-                                        NsAdHelper.instance.get(position)
-                                    if (onTickAD != null) {
-                                        adLoadingDialog.dismiss()
+                                    if (isFinishing || isDestroyed) {
                                         cancel()
-                                        showInterAd(onTickAD, position, call)
+                                        return
+                                    }
+
+                                    val ad = NsAdHelper.instance.get(position)
+                                    if (ad != null) {
+                                        dismissLoadingSafe()
+                                        cancel()
+                                        showInterAd(ad, position, call)
                                     }
                                 }
 
                                 override fun onFinish() {
-                                    val onFinishAd = NsAdHelper.instance.get(position)
-                                    if (onFinishAd != null) {
-                                        adLoadingDialog.dismiss()
-                                        showInterAd(onFinishAd, position, call)
+                                    if (isFinishing || isDestroyed) return
+
+                                    val ad = NsAdHelper.instance.get(position)
+                                    dismissLoadingSafe()
+
+                                    if (ad != null) {
+                                        showInterAd(ad, position, call)
                                     } else {
-                                        adLoadingDialog.dismiss()
                                         call.invoke()
                                     }
                                 }
@@ -103,6 +114,17 @@ open class NsAdPage : BasePage(){
         } else {
             call.invoke()
         }
+    }
+
+
+    private fun dismissLoadingSafe() {
+        if (isFinishing || isDestroyed) return
+
+        try {
+            if (adLoadingDialog.isShowing) {
+                adLoadingDialog.dismiss()
+            }
+        } catch (_: Exception) {}
     }
 
 
@@ -160,5 +182,11 @@ open class NsAdPage : BasePage(){
             }
         }
     }
-    
+
+    override fun onDestroy() {
+        interTimer?.cancel()
+        interTimer = null
+        dismissLoadingSafe()
+        super.onDestroy()
+    }
 }

@@ -22,5 +22,6 @@ class AdLoadingDialog(context: Context) : Dialog(context, R.style.dialogStyle) {
         window?.attributes = layoutParams
 
         setCanceledOnTouchOutside(false)
+        setCancelable(false)
     }
 }

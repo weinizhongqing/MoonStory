@@ -54,7 +54,7 @@ class RemoteConfigHelper {
 
     suspend fun awaitComplete() {
         while (!isComplete) {
-           delay(80)
+           delay(100)
         }
     }
 

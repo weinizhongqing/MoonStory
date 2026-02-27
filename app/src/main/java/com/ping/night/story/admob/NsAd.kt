@@ -11,6 +11,7 @@ import com.google.android.gms.ads.appopen.AppOpenAd
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.nativead.NativeAd
 import com.ping.night.story.NsApp
+import com.ping.night.story.NsAppLifecycle
 import com.ping.night.story.admob.type.NsAdSType
 import com.ping.night.story.admob.type.NsAdType
 import com.ping.night.story.admob.view.CustomNativeAdView
@@ -76,6 +77,7 @@ class NsAd() {
         override fun onAdClicked() {
             super.onAdClicked()
             NsAdHelper.instance.adLog("[${key}] onAdClicked")
+            NsApp.isClickNative = true
             clickListener?.invoke()
             NsApp.app.dealValueClickFb(adValue)
         }
