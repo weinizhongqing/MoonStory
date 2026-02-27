@@ -15,7 +15,6 @@ object MMKVHelper {
     private val mmkv by lazy(LazyThreadSafetyMode.SYNCHRONIZED) { MMKV.defaultMMKV() }
 
     fun initMMKV() {
-        MMKV.initialize(NsApp.app)
         if (appFirstOpenTime == -1L) {
             appFirstOpenTime = System.currentTimeMillis()
         }

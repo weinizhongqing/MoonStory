@@ -5,6 +5,9 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.os.Build
 import android.os.Bundle
+import android.os.CountDownTimer
+import android.os.SystemClock
+import android.util.Log
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.NotificationManagerCompat
@@ -18,18 +21,28 @@ import com.ping.night.story.Constant
 import com.ping.night.story.NsApp
 import com.ping.night.story.NsAppLifecycle
 import com.ping.night.story.R
+import com.ping.night.story.admob.NsAd
 import com.ping.night.story.admob.NsAdHelper
 import com.ping.night.story.admob.position.NsPosition
 import com.ping.night.story.admob.position.NsPosition.isEnable
 import com.ping.night.story.admob.view.NsAdPage
 import com.ping.night.story.databinding.NsStartPageBinding
+import com.ping.night.story.db.DownloadInfo
 import com.ping.night.story.fbase.AffairHelper
 import com.ping.night.story.fbase.RemoteConfigHelper
 import com.ping.night.story.helper.MMKVHelper
+import com.ping.night.story.utils.AppNetUtils
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.async
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.isActive
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
+import kotlinx.coroutines.withTimeout
 import kotlinx.coroutines.withTimeoutOrNull
+import okhttp3.Request
+import org.json.JSONObject
+import java.util.UUID
 
 class NsOpenActivity : NsAdPage() {
 
@@ -54,10 +67,8 @@ class NsOpenActivity : NsAdPage() {
         }
         notifyProcessor(intent = intent)
         getNotifyPM {
-            UPMRequest {
-                lifecycleScope.launch(Dispatchers.Main) {
-                    loadOpenAd()
-                }
+            umpRequest {
+                loadOpenAd()
             }
         }
     }
@@ -108,7 +119,7 @@ class NsOpenActivity : NsAdPage() {
         }.launch(Manifest.permission.POST_NOTIFICATIONS)
     }
 
-    private fun UPMRequest(complete: () -> Unit){
+    private fun umpRequest(complete: () -> Unit){
         if (NsApp.app.obtainGoogleUpm) {
             complete.invoke()
             return
@@ -135,44 +146,33 @@ class NsOpenActivity : NsAdPage() {
 
 
     private fun loadOpenAd(){
-        lifecycleScope.launch {
+        lifecycleScope.launch{
             val t1 = System.currentTimeMillis()
             withTimeoutOrNull(3000){
                 RemoteConfigHelper.instance.awaitComplete()
             }
             val t2 = System.currentTimeMillis()
 
-            if (t2 - t1 < 3000){
-                delay(3000 - (t2 - t1))
+            if (t2 - t1 < 1000){
+                delay(1000 - (t2 - t1))
             }
             if (NsPosition.AD_START.isEnable()) {
                 AffairHelper.instance.event("arrive_ad_${NsPosition.AD_START}")
             }
             preLoadNextViewAd()
             launch {
-                val ad = NsAdHelper.instance.get(
-                    NsPosition.AD_START)
+                val ad = NsAdHelper.instance.get(NsPosition.AD_START)
                 if (ad != null) {
                     showOpenAd(ad)
                 } else {
-                    NsAdHelper.instance.preLoad(
-                        NsPosition.AD_START)
-                    object  : android.os.CountDownTimer(15000,300){
-                        override fun onTick(millisUntilFinished: Long) {
-                            val ad = NsAdHelper.instance.get(
-                                NsPosition.AD_START)
-                            if (ad!=null){
-                                showOpenAd(ad)
-                                cancel()
-                            }
-                        }
-
-                        override fun onFinish() {
-                            val ad = NsAdHelper.instance.get(
-                                NsPosition.AD_START)
-                            showOpenAd(ad)
-                        }
-                    }.start()
+                    val loadStart = System.currentTimeMillis()
+                    withTimeoutOrNull(12000) {
+                        NsAdHelper.instance.preLoad(NsPosition.AD_START)
+                    }
+                    val loadTime = (System.currentTimeMillis() - loadStart) / 1000
+                    AffairHelper.instance.event("start_load_t", "msg", loadTime.toString())
+                    val fallbackAd = NsAdHelper.instance.get(NsPosition.AD_START)
+                    showOpenAd(fallbackAd)
                 }
             }
         }
@@ -189,26 +189,29 @@ class NsOpenActivity : NsAdPage() {
         }
     }
 
-    private fun showOpenAd(openAd: com.ping.night.story.admob.NsAd?){
+    private fun showOpenAd(openAd: NsAd?){
+        Log.d("NsOpenActivity", "showOpenAd: ")
         if (!isAppRun) {
             finish()
             return
         }
         val adPosition = NsPosition.AD_START
-        openAd?.let {
+        if (openAd == null){
+            skipNextView()
+            return
+        }
+        openAd.apply {
             AffairHelper.instance.event("fill_ad_$adPosition")
-            it.onClose { skipNextView() }
-            it.onClick { AffairHelper.instance.event("click_ad_$adPosition") }
-            it.onShow {
+            this.onClose { skipNextView() }
+            this.onClick { AffairHelper.instance.event("click_ad_$adPosition") }
+            this.onShow {
                 AffairHelper.instance.event("show_ad_$adPosition")
                 lifecycleScope.launch {
                     NsAdHelper.instance.preLoad(
                         NsPosition.AD_START)
                 }
             }
-            it.show(adPosition, this)
-        } ?: run {
-            skipNextView()
+            this.show(adPosition, this@NsOpenActivity)
         }
     }
 
@@ -231,4 +234,10 @@ class NsOpenActivity : NsAdPage() {
         }
         finish()
     }
+
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
+
 }

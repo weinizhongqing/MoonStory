@@ -37,7 +37,7 @@ class NsAdLoader(val load: FSPAdLoader2) {
         au: NsAdConfig,
         adUnit: NsAdInfo,
         waitTime: Int,
-        activity: Activity? = null
+        activity: Activity? = null,
     ): NsAd? =
         withContext(Dispatchers.Main) {
             if (!key.isEnable()) {

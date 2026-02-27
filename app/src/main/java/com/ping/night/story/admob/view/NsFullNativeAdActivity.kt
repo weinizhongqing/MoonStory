@@ -51,11 +51,16 @@ class NsFullNativeAdActivity : androidx.appcompat.app.AppCompatActivity() {
             insets
         }
 
-        mBindingView.adContainerView.showFullAd(NsAdHelper.instance.tempNativeFAd!!) {
-            if (mCountdown.isRunning()) {
-                return@showFullAd
-            }
-            finish()
+        val ad = NsAdHelper.instance.tempNativeFAd
+
+        if (ad == null) {
+            finishSafely()
+            return
+        }
+
+        mBindingView.adContainerView.showFullAd(ad) {
+            if (mCountdown.isRunning()) return@showFullAd
+            finishSafely()
             adClose?.invoke()
         }
 
@@ -135,4 +140,11 @@ class NsFullNativeAdActivity : androidx.appcompat.app.AppCompatActivity() {
          */
         fun isRunning(): Boolean = isRunning.get()
     }
+
+    private fun finishSafely() {
+        if (!isFinishing && !isDestroyed) {
+            finish()
+        }
+    }
+
 }
